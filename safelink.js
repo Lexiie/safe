@@ -91,8 +91,7 @@ var Base64 = {
 var encode = document.getElementById('encode'),
     decode = document.getElementById('decode'),
     output = document.getElementById('output'),
-    input = document.getElementById('input');
-var User_ID = "";
+    input = document.getElementById('inpvar User_ID = "";
 var protected_links = "";
 var a_to_va = 0;
 var a_to_vb = 0;
@@ -131,7 +130,7 @@ function auto_safeconvert() {
         }
         if (a_to_vh == false) {
             var encryptedUrl = Base64.encode(a_to_vi);
-            a_to_ve[i].href = "http://link-tujuan.blogspot.com/p/go.html?url=" + encryptedUrl;
+            a_to_ve[i].href = "http://www.penyon.net/p/safelink.html?url=" + encryptedUrl;
             a_to_ve[i].rel = "nofollow";
             a_to_vb++;
             a_to_vc += i + ":::" + a_to_ve[i].href + "\n";
